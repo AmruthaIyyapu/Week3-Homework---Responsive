@@ -29,6 +29,11 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  opacity: 0.8;
+  margin: 2px;
+}
+
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -78,6 +83,9 @@ p {
   margin: 10px;
 }
 
+.about-images {
+  margin: 3rem;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -88,4 +96,150 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 350px) {
+  body {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2,
+  h3 {
+    font-size: 12px;
+  }
+
+  h4,
+  .email-link {
+    font-size: 15px;
+  }
+  .nameofDeveloper {
+    font-size: 10px;
+  }
+
+  .navigation-links {
+    margin: 10px;
+  }
+
+  .navigation-links a {
+    padding: 10px 7px;
+  }
+
+  img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .img-info {
+    line-height: 1;
+    font-size: 0.75rem;
+  }
+
+  .about-images {
+    margin: 10px;
+  }
+
+  .aboutpage-body {
+    margin: 3px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 580px) {
+  img {
+    width: 400px;
+  }
+
+  .aboutpage-body {
+    margin: 5px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2,
+  h3 {
+    font-size: 15px;
+  }
+
+  .nameofDeveloper {
+    font-size: 15px;
+  }
+
+  .navigation-links {
+    margin: 10px;
+  }
+
+  .navigation-links a {
+    padding: 15px 9px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  h4,
+  .email-link {
+    font-size: 18px;
+  }
+
+  .img-info {
+    line-height: 1.2;
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 1000px) {
+  img {
+    width: 400px;
+  }
+
+  .aboutpage-body {
+    margin: 5px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  .nameofDeveloper {
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    margin: 10px;
+  }
+
+  .navigation-links a {
+    padding: 15px 9px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  h4,
+  .email-link {
+    font-size: 18px;
+  }
+
+  .img-info {
+    line-height: normal;
+    font-size: 16px;
+  }
+
+  .btn {
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
 }
