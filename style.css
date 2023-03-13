@@ -147,6 +147,10 @@ p {
   .aboutpage-body {
     margin: 3px;
   }
+
+  p {
+    text-align: center;
+  }
 }
 
 @media (min-width: 350px) and (max-width: 580px) {
@@ -191,6 +195,9 @@ p {
   .img-info {
     line-height: 1.2;
     font-size: 0.75rem;
+  }
+  p {
+    text-align: center;
   }
 }
 
@@ -241,5 +248,8 @@ p {
   .btn {
     line-height: 1rem;
     font-size: 0.8rem;
+  }
+  p {
+    text-align: center;
   }
 }
